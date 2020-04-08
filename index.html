@@ -11,14 +11,22 @@
         <meta property="og:image:height" content="200">
         <style>
             .main-continer {
-                margin: 24px;
+                padding: 24px;
+                font-family: 'Kanit';
             }
             .container {
                 margin-bottom: 32px;
             }
+            .header {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
             .picture {
                 width: 250px;
                 height: 250px;
+                border-radius: 100%;
+                margin-right: 24px;
             }
             .desc {
                 margin-left: 16px;
@@ -28,9 +36,15 @@
     <body>
         <div class="main-continer">
             <div class="container">
-                <img class="picture" src="public/picture/profile.jpg" />
-                <h1>Worawut Tititumjariya</h1>
-                <p>I'm an Frontend Developer who like to style the  component and try moving it by animate css.</p>
+                <div class="header">
+                    <div>
+                        <img class="picture" src="public/picture/profile.jpg" />
+                    </div>
+                    <div>
+                        <h1>Worawut Tititumjariya</h1>
+                        <p>I'm an Frontend Developer who like to style the  component and try moving it by animate css.</p>
+                    </div>
+                </div>
                 <H2>Goal!!!</H2>
                 <p>My Goal in Career path is <b>an Full Stack Developer</b> and <b>UX/UI designer</b>. Hobby that I want to do is playing a game like the city skyline, GTA 5 or other managment game that use high graphic specification computer and another hobby that I want to riding a (big) motorbike to travel to various places and climb Mount Everest once in a lifetime.</p>
             </div>
